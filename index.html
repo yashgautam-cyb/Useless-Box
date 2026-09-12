@@ -1,11 +1,26 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title>Useless Box</title>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>The Useless Box</title>
+				<link rel="stylesheet" href="styles.css">
 </head>
-<body>
+	<body>
+		<div id="score-board">
+			Score: <span id="score">0</span>
+		</div>
 
-</body>
+		<div id="box-container">
+			<div class="box">
+				<div id="arm" class="arm"></div>
+				<label class="switch">
+					<input type="checkbox" id="toggle">
+						<span class="slider"></span>
+					</label>
+			</div>
+		</div>
+
+		<script src="scripts.js"></script>
+	</body>
 </html>
